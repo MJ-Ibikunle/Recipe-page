@@ -1,0 +1,151 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    margin-bottom: 0;
+}
+h1{
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 350px;
+}
+h2{
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin: 1rem 0;
+}
+h3{
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    margin:1.5rem 0;
+}
+label{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+span{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    color: black;
+}
+span .extra{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;  
+}
+#header-p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+}
+.instructions-div p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.servings-box p {
+    font-size: 16px;
+}
+.time{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #333333;
+}
+.servings-box p:first-of-type {
+    font-size: 10px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BDBDBD;
+}
+
+.orange {
+    color: orange;
+}
+.box-orange {
+    background-color: orange;
+    height: 25px;
+    width: 2px;
+    font-family: Playfair Display;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#source{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+}
+footer{
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    color: #828282;
+    width: 70%;
+    margin-inline: auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 17px;
+}
+footer span{
+    color: #828282;
+}
+@media screen and (min-width:768px) {
+    #header-p {
+        width: 60% !important;
+    }
+    h1{
+        width: 587px;
+        line-height: 64px;
+        font-size: 48px;
+    }
+    .servings-box {
+        width: 216px;
+        border-radius: 12px;
+        box-shadow: 0px 0px 20px 0px #0000001A;
+    }
+
+    .ingredients-box {
+        width: 60% !important;
+    }
+
+     footer {
+        text-align: center;
+    }
+}
